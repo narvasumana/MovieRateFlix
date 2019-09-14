@@ -1,53 +1,73 @@
 {
-  "name": "movie-rate-flix-project",
-  "version": "0.0.0",
-  "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e"
+  "_args": [
+    [
+      "browserify-aes@1.2.0",
+      "C:\\Users\\yashwanth\\Desktop\\My_Work\\Advanced_we_app\\Project\\Group5_web_project-master\\MovieRateFlixProject"
+    ]
+  ],
+  "_development": true,
+  "_from": "browserify-aes@1.2.0",
+  "_id": "browserify-aes@1.2.0",
+  "_inBundle": false,
+  "_integrity": "sha512-+7CHXqGuspUn/Sl5aO7Ea0xWGAtETPXNSAjHo48JfLdPWcMng33Xe4znFvQweqc/uzk5zSOI3H52CYnjCfb5hA==",
+  "_location": "/browserify-aes",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "browserify-aes@1.2.0",
+    "name": "browserify-aes",
+    "escapedName": "browserify-aes",
+    "rawSpec": "1.2.0",
+    "saveSpec": null,
+    "fetchSpec": "1.2.0"
   },
-  "private": true,
+  "_requiredBy": [
+    "/browserify-cipher",
+    "/parse-asn1"
+  ],
+  "_resolved": "https://registry.npmjs.org/browserify-aes/-/browserify-aes-1.2.0.tgz",
+  "_spec": "1.2.0",
+  "_where": "C:\\Users\\yashwanth\\Desktop\\My_Work\\Advanced_we_app\\Project\\Group5_web_project-master\\MovieRateFlixProject",
+  "author": "",
+  "browser": "browser.js",
+  "bugs": {
+    "url": "https://github.com/crypto-browserify/browserify-aes/issues"
+  },
   "dependencies": {
-    "@angular/animations": "^7.2.15",
-    "@angular/cdk": "^8.0.2",
-    "@angular/common": "~7.2.0",
-    "@angular/compiler": "~7.2.0",
-    "@angular/core": "~7.2.0",
-    "@angular/forms": "~7.2.0",
-    "@angular/http": "^7.2.15",
-    "@angular/material": "^8.0.2",
-    "@angular/platform-browser": "~7.2.0",
-    "@angular/platform-browser-dynamic": "~7.2.0",
-    "@angular/router": "~7.2.0",
-    "core-js": "^2.5.4",
-    "hammerjs": "^2.0.8",
-    "rxjs": "~6.3.3",
-    "rxjs-compat": "6.5.2",
-    "tslib": "^1.9.0",
-    "zone.js": "~0.8.26"
+    "buffer-xor": "^1.0.3",
+    "cipher-base": "^1.0.0",
+    "create-hash": "^1.1.0",
+    "evp_bytestokey": "^1.0.3",
+    "inherits": "^2.0.1",
+    "safe-buffer": "^5.0.1"
   },
+  "description": "aes, for browserify",
   "devDependencies": {
-    "@angular-devkit/build-angular": "~0.13.0",
-    "@angular/cli": "~7.3.0",
-    "@angular/compiler-cli": "~7.2.0",
-    "@angular/language-service": "~7.2.0",
-    "@types/node": "~8.9.4",
-    "@types/jasmine": "~2.8.8",
-    "@types/jasminewd2": "~2.0.3",
-    "codelyzer": "~4.5.0",
-    "jasmine-core": "~2.99.1",
-    "jasmine-spec-reporter": "~4.2.1",
-    "karma": "~3.1.1",
-    "karma-chrome-launcher": "~2.2.0",
-    "karma-coverage-istanbul-reporter": "~2.0.1",
-    "karma-jasmine": "~1.1.2",
-    "karma-jasmine-html-reporter": "^0.2.2",
-    "protractor": "~5.4.0",
-    "ts-node": "~7.0.0",
-    "tslint": "~5.11.0",
-    "typescript": "~3.2.2"
-  }
+    "standard": "^9.0.0",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.3"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "homepage": "https://github.com/crypto-browserify/browserify-aes",
+  "keywords": [
+    "aes",
+    "crypto",
+    "browserify"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "browserify-aes",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/crypto-browserify/browserify-aes.git"
+  },
+  "scripts": {
+    "standard": "standard",
+    "test": "npm run standard && npm run unit",
+    "unit": "node test/index.js | tspec"
+  },
+  "version": "1.2.0"
 }
